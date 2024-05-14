@@ -23,6 +23,7 @@ html {
 }
 
 #body_background {
+  width: 50;
   display: flex;
   justify-content: center; /* Align horizontally */
   align-items: center; /* Align vertically */
