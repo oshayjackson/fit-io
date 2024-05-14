@@ -27,7 +27,7 @@ html {
   justify-content: center; /* Align horizontally */
   align-items: center; /* Align vertically */
   background: linear-gradient(
-    45deg,
+    to right,
     #ff6347,
     #ffd700,
     #32cd32,
