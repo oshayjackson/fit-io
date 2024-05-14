@@ -1,0 +1,27 @@
+html {
+  margin: 2%;
+  padding: 2%;
+}
+.card {
+  margin: 1.5%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#body_background {
+  display: flex;
+  justify-content: center; /* Align horizontally */
+  align-items: center; /* Align vertically */
+  background-color: #001627;
+  color: #ecefff;
+}
+
+#workout {
+  font-family: nunito;
+  font-size: 13pt;
+}
