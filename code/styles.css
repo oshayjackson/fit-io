@@ -1,12 +1,3 @@
-@keyframes animateBackground {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 100% 0;
-  }
-}
-
 html {
   margin: 5%;
   padding: 3%;
@@ -56,5 +47,14 @@ body {
 @media only screen and (max-width: 414px) {
   .card-container {
     gap: 20px; /* Adjusted gap for smaller screens */
+  }
+}
+
+@keyframes animateBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
   }
 }
