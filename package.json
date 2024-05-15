@@ -6,10 +6,12 @@
   },
   "homepage": "https://github.com/oshayjackson/io-shay",
   "scripts": {
+    "build": "react-scripts build --base-href=/training_plan/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "react-scripts": "^5.0.1"
   }
 }
