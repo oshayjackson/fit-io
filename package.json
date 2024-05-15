@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "framer-motion": "^11.2.2",
+    "init": "^0.1.2"
+  },
+  "homepage": "https://github.com/oshayjackson/io-shay",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
