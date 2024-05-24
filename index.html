@@ -1,150 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset = "UTF-8" />
+    <meta name    = "viewport" content = "width=device-width, initial-scale=1.0" />
     <title>Oshay's Training Plan</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel = "stylesheet" href = "./style.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous" />
-    <script src="./script.js"></script>
+            href        = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel         = "stylesheet"
+            integrity   = "sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin = "anonymous" />
+    <script src         = "./script.js"></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+      src         = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity   = "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin = "anonymous"></script>
   </head>
-  <body class="BG">
-    <!-- TOP CARD -->
-    <div class="card">
-      <div className="card-body">
-        <h5 className="card-title"><p id="train_1"></p></h5>
-        <ul id="workout">
-          <li>Lateral raises 7 x 8-12</li>
-          <li>Dumbbell press 4 x 8-10</li>
-          <li>ISO-lateral raises 2 x 8-10</li>
-          <li>Cable front raises 3 x 8-10</li>
-          <li>Reverse pec-dec fly 3 x 8-10</li>
+  <body>
+  <nav id="navbar" class="navbar fixed-top">
+    <div class="container-fluid">
+    <h2>Training Plan</h2>
+    </div>
+  </nav>
+    <div class="training-cards-container">
+    <!-- (A) Shoulders - Arms -->
+    <div class = "card container-fluid table">
+      <!-- Workout -->
+      <h5>(A) Shoulders - Biceps - Triceps</h5>
+      <div class = "card-body row">
+        <!-- Movement -->
+      <ul class = "list-group list-group-flush col">
+          <h6>Movement</h6>
+          <li class = "list-group-item">Lateral Raises</li>
+          <li class = "list-group-item">Dumbbell Press</li>
+          <li class = "list-group-item">ISO Lateral Raise</li>
+          <li class = "list-group-item">Cable Front Raise</li>
+          <li class = "list-group-item">Reverse Pec-dec Fly</li>
           <br />
-          <li>Rope push downs 7 x 8-10</li>
-          <li>Skull crushers 3 x 8-10</li>
-          <li>Cable tricep extensions 3 x 8-10</li>
-          <li>Tricep dips 3 x 8</li>
+          <li class = "list-group-item">Rope Push Downs</li>
+          <li class = "list-group-item">Incline Skull Crushers</li>
+          <li class = "list-group-item">Cable Tricep Extenstion</li>
+          <li class = "list-group-item">Tricep Dips</li>
           <br />
-          <li>Cable curls 7 x 8-10</li>
-          <li>Preacher curls 3 x 8-10</li>
-          <li>Dumbbell hammer curls 3 x 8-10</li>
+          <li class = "list-group-item">Cable Curls</li>
+          <li class = "list-group-item">Preacher Curls</li>
+          <li class = "list-group-item">Dumbbell Hammer Curls</li>
+        </ul>
+        <!-- Sets -->
+        <ul class = "list-group list-group-flush col">
+          <h6>Sets</h6>
+          <li class = "list-group-item">(7)</li>
+          <li class = "list-group-item">(4)</li>
+          <li class = "list-group-item">(2)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
           <br />
-          <li>Hanging leg raises 3 x 10</li>
-          <li>Ab crunch machine 3 x 10</li>
+          <li class = "list-group-item">(7)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+          <br />
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+        </ul>
+        <!-- Reps -->
+        <ul class = "list-group list-group-flush col">
+          <h6>Reps</h6>
+          <li class = "list-group-item">8 - 12</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <br />
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <br />
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+        </ul>
         </ul>
       </div>
     </div>
-    <!-- BOTTOM CARD -->
     <br />
-    <br />
-    <!-- TOP CARD -->
-    <div class="card">
-      <div className="card-body">
-        <h5 className="card-title"><p id="train_2"></p></h5>
-        <ul id="workout">
-          <li>Incline chest press 4 x 12-15</li>
-          <li>Incline dumbbell flies 3 x 8-12</li>
-          <li>Power press 3 x 8-12</li>
-          <li>Superset cable flies & dips 3 x 12-15</li>
-          <br />
-          <li>Lat pull downs 4 x 8-12</li>
-          <li>Wide cable row 2 x 8-12</li>
-          <li>Seated rope rows 2 x 10</li>
-          <li>Dumbbell rows 3 x 8</li>
-          <li>Rope pullovers 2 x Failure</li>
-          <br />
-          <li>Smith machine shrugs 7 x 8-10</li>
-          <li>ISO smith machine shrugs 3 x 8-12</li>
-          <li>Cable face pulls 3 x 8-10</li>
-          <br />
-          <li>Hanging leg raises 3 x 10</li>
-          <li>Ab crunch machine 3 x 10</li>
+    <!-- (A) Chest - Back - Traps -->
+    <div class = "card container-fluid table">
+      <!-- Workout -->
+      <h5>(A) Chest - Back - Traps</h5>
+      <div class = "card-body row">
+        <!-- Movement -->
+      <ul class = "list-group list-group-flush col">
+          <h6>Movement</h6>
+          <li class = "list-group-item">Incline chest press</li>
+          <li class = "list-group-item">Incline dumbbell fly</li>
+          <li class = "list-group-item">Flat Hex press</li>
+          <li class = "list-group-item">Cable fly</li>
+          <li class = "list-group-item">Dips</li>
+          <li class = "list-group-item">Lat pull downs</li>
+          <li class = "list-group-item">Wide cable row</li>
+          <li class = "list-group-item">Seated low row</li>
+          <li class = "list-group-item">Dumbbell rows</li>
+          <li class = "list-group-item">Smith machine shrugs</li>
+          <li class = "list-group-item">Ez bar shrugs</li>
+          <li class = "list-group-item">Face pulls </li>
+        </ul>
+        <!-- Sets -->
+        <ul class = "list-group list-group-flush col">
+          <h6>Sets</h6>
+          <li class = "list-group-item">(4)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(4)</li>
+          <li class = "list-group-item">(2)</li>
+          <li class = "list-group-item">(2)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(7)</li>
+          <li class = "list-group-item">(4)</li>
+          <li class = "list-group-item">(3)</li>
+        </ul>
+        <!-- Reps -->
+        <ul class = "list-group list-group-flush col">
+          <h6>Reps</h6>
+          <li class = "list-group-item">8 - 15</li>
+          <li class = "list-group-item">8 - 12</li>
+          <li class = "list-group-item">8 - 12</li>
+          <li class = "list-group-item">8 - 15</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 12</li>
+          <li class = "list-group-item">8 - 12</li>
+          <li class = "list-group-item">10</li>
+          <li class = "list-group-item">8</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+        </ul>
         </ul>
       </div>
     </div>
-    <!-- BOTTOM CARD -->
     <br />
-    <br />
-    <!-- TOP CARD -->
-    <div class="card">
-      <div className="card-body">
-        <h5 className="card-title"><p id="train_3"></p></h5>
-        <ul id="workout">
-          <li>Warmup leg extensions 3 x activation</li>
-          <li>Smith machine squats 4 x 8-10 'DROPSET'</li>
-          <li>Hacksquat 3 x 8-10 'DROPSET'</li>
-          <li>Bulgarian suqats 3 x 8-10</li>
-          <li>Leg curls 3 x 8-12</li>
-          <li>Calf raises 2 x 10-12</li>
+    <!-- (A) Legs -->
+    <div class = "card container-fluid table">
+      <!-- Workout -->
+      <h5>(A) Quads - Hamstrings - Calves</h5>
+      <div class = "card-body row">
+        <!-- Movement -->
+      <ul class = "list-group list-group-flush col">
+          <h6>Movement</h6>
+          <li class = "list-group-item">Leg extensions</li>
+          <li class = "list-group-item">Squats - Dropset</li>
+          <li class = "list-group-item">Hacksquat - Dropset</li>
+          <li class = "list-group-item">Bulgarian Squats</li>
+          <li class = "list-group-item">Hamstring Curls</li>
+          <li class = "list-group-item">Leg extensions</li>
+          <li class = "list-group-item">Calf Raises</li>
+        </ul>
+        <!-- Sets -->
+        <ul class = "list-group list-group-flush col">
+          <h6>Sets</h6>
+          <li class = "list-group-item">Warmup</li>
+          <li class = "list-group-item">(4)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(3)</li>
+          <li class = "list-group-item">(2)</li>
+        </ul>
+        <!-- Reps -->
+        <ul class = "list-group list-group-flush col">
+          <h6>Reps</h6>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 10</li>
+          <li class = "list-group-item">8 - 12</li>
+          <li class = "list-group-item">8 - 12</li>
+          <li class = "list-group-item">8 - 12</li>
+        </ul>
         </ul>
       </div>
     </div>
-    <!-- BOTTOM CARD -->
     <br />
-    <br />
-    <!-- TOP CARD -->
-    <div class="card">
-      <div className="card-body">
-        <h5 className="card-title"><p id="train_4"></p></h5>
-        <ul id="workout">
-          <li>Lateral raises & Upright rows 7 x 8-12</li>
-          <li>Overhead press 4 x 8-10</li>
-          <li>ISO-lateral raises 2 x 8-10</li>
-          <li>EZ bar front raises 3 x 8-10</li>
-          <li>Reverse pec-dec fly 3 x 8-10</li>
-          <br />
-          <li>ISO seated Dumbbell extensions 7 x 8-10</li>
-          <li>Incline Skull crushers 3 x 8-10</li>
-          <li>Cable tricep extensions 3 x 8-10</li>
-          <li>Tricep dips 3 x 8</li>
-          <br />
-          <li>Cable curls 7 x 8-10</li>
-          <li>Preacher curls & reverse curls 3 x 8-10</li>
-          <li>Seated Dumbbell hammer curls 3 x 8-10</li>
-          <br />
-          <li>Hanging leg raises 3 x 10</li>
-          <li>Ab crunch machine 3 x 10</li>
-        </ul>
-      </div>
     </div>
-    <!-- BOTTOM CARD -->
-    <br />
-    <br />
-    <!-- TOP CARD -->
-    <div class="card">
-      <div className="card-body">
-        <h5 className="card-title"><p id="train_5"></p></h5>
-        <ul id="workout">
-          <li>Incline chest press 4 x 12-15</li>
-          <li>Incline dumbbell flies 3 x 8-12</li>
-          <li>Power press 3 x 8-12</li>
-          <li>Superset cable flies & dips 3 x 12-15</li>
-          <br />
-          <li>Lat pull downs 4 x 8-12</li>
-          <li>Wide cable row 2 x 8-12</li>
-          <li>Seated rope rows 2 x 10</li>
-          <li>Dumbbell rows 3 x 8</li>
-          <li>Rope pullovers 2 x Failure</li>
-          <br />
-          <li>Smith machine shrugs 7 x 8-10</li>
-          <li>ISO smith machine shrugs 3 x 8-12</li>
-          <li>Cable face pulls 3 x 8-10</li>
-          <br />
-          <li>Hanging leg raises 3 x 10</li>
-          <li>Ab crunch machine 3 x 10</li>
-        </ul>
-      </div>
-    </div>
-    <!-- BOTTOM CARD -->
-    <br />
-    <br />
   </body>
 </html>
