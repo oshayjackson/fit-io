@@ -4,16 +4,11 @@
   width: 100vw;
   background: linear-gradient(
     315deg,
-    #012a4aff,
-    #013a63ff,
-    #01497cff,
-    #014f86ff,
-    #2a6f97ff,
-    #2c7da0ff,
-    #468fafff,
-    #61a5c2ff,
-    #89c2d9ff,
-    #a9d6e5ff
+  #aaaaaaff,
+  #bbbbbbff,
+  #ccccccff,
+  #ddddddff,
+  #eeeeeeff
   );
   background-size: 3000% 3000%;
   animation: gradientAnimation 15s ease infinite;
@@ -51,23 +46,37 @@ h4 {
   font-family: 'Nunito';
 
 }
-#one {
-  background-color: rgba(217, 237, 146, 0.2);
-}
-#two {
-  background-color: rgba(153, 217, 140, 0.2);
-}
-#three {
-  background-color: rgba(82, 182, 154, 0.2);
+
+/* .workouts {
+  font-family: 'Nunito';
+} */
+
+.workouts ul, .legend ul{
+  font-family: 'Nunito';
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  list-style: none;
 }
 
-.workouts {
-  font-family: 'Nunito';
+.legend ul {
+  font-style: italic; /* You can apply custom styling if needed */
+}
+
+
+#sets-reps {
+  text-align: right;
+  color: #FF686D;
+  font-weight: 600;
 }
 
 .legend {
+  color: #469EFF;
+  text-align: baseline;
   display: flex;
   flex-direction: column;
-  font-size: 9pt;
-  justify-content: space-evenly;
+}
+
+#sets-reps {
+  display: inline;
 }
